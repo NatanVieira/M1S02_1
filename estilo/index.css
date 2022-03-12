@@ -1,6 +1,36 @@
-h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  position: fixed;
+  justify-content: space-between;
+}
+.navbar .logo {
+  width: 150px;
+  height: 100px;
+}
+.navbar .pesquisa {
+  margin: 25px;
+  height: 50%;
+  width: 300px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.navbar span {
+  display: block;
   font-size: 30px;
+  color: white;
+  margin: 30px;
 }
 
 /*# sourceMappingURL=index.css.map */
