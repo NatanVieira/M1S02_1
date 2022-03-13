@@ -66,4 +66,12 @@
   text-align: center;
 }
 
+.lista {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 10px;
+  justify-content: space-between;
+}
+
 /*# sourceMappingURL=index.css.map */

@@ -3,6 +3,9 @@
     src: url("../font/BebasNeue-Regular.ttf");
 }
 
+@mixin zeraWidth {
+    width: 50%;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -67,4 +70,13 @@
         margin-bottom: 10px;
         text-align: center;
     }
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;  
+    margin: 10px;
+    justify-content: space-between;
+
 }
