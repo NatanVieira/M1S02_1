@@ -1,8 +1,12 @@
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../font/BebasNeue-Regular.ttf");
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: BebasNeue-Regular;
 }
 
 .navbar {
@@ -28,7 +32,7 @@
 }
 .navbar span {
   display: block;
-  font-size: 30px;
+  font-size: 50px;
   color: white;
   margin: 30px;
 }
