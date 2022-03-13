@@ -107,3 +107,18 @@
         font-size: 25px;
     }
 }
+
+.rodape { 
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: #FC8F4C;
+    text-align: center;
+    position: sticky;
+    left: 0;
+    bottom: 0;   
+    margin: 5px;
+    span {
+        display: block;
+    }
+}
