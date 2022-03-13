@@ -74,4 +74,31 @@
   justify-content: space-between;
 }
 
+.englobaForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.form input, .form textarea {
+  display: block;
+  margin: 10px;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+}
+.form p {
+  font-size: 25px;
+}
+
 /*# sourceMappingURL=index.css.map */
